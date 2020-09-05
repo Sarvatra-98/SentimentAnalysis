@@ -17,5 +17,5 @@ if st.button('Check Sentiment'):
     if(k[0]=='negative'):
         st.success("Negative, thank you for bringing this to our attention. We're sorry you had a bad experience.")
     else:
-        st.success('Thank you for your valuable feedback')
+        st.success('Positive,Thank you for your valuable feedback')
         st.balloons()
