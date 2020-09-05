@@ -4,8 +4,6 @@ Created on Thu Sep  3 21:28:42 2020
 
 @author: sarva
 """
-import os
-port = int(os.environ.get(“PORT”, 5000))
 import pickle
 import streamlit as st
 #filename='Final_model.sav'
